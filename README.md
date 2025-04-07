@@ -14,6 +14,7 @@ This project implements various graph algorithms in C++ for an undirected graph.
   - [Graph Class](#graph-class)
   - [Algorithms Class](#algorithms-class)
   - [Queue Class](#queue-class)
+  - [PriorityQueue Class](#priorityqueue-class)
   - [UnionFind Class](#unionfind-class)
 - [Compilation and Execution](#compilation-and-execution)
 - [Testing](#testing)
@@ -43,6 +44,13 @@ This project aims to implement basic graph algorithms such as BFS, DFS, Dijkstra
 - **Queue.hpp**
   - A custom queue implementation using arrays.
   - Supports basic queue operations like enqueue, dequeue, and checking if the queue is empty.
+ 
+### PriorityQueue Class
+
+- **PriorityQueue.hpp**
+  - A  custom priority queue implementation using arrays.
+  - Supports priority-based insertion, extraction of the highest priority element and checking if the queue is empty.
+  - Elements with lower weights (or costs) have higher priority (min-heap behavior).
 
 ### UnionFind Class
 
