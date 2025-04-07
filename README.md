@@ -74,7 +74,7 @@ To compile the project, run the following commands:
 
 6. **Deleting the compiled files**
 
-    Run the command "make clean"
+    Run the command "make clean".
     This command will delete the files that were created during the compilation of our program.
 
 ## Testing
