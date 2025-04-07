@@ -55,35 +55,41 @@ To compile the project, run the following commands:
 1. **Compiling the code:**
    
     Run the command "make".
+    This command will compile the program.
 
-2. **Running the program:**
+3. **Running the program:**
    
     Run the command "make Main".
-    This will run the program.
+    This command will run the program.
 
-3. **Running tests (using Doctest):**
+4. **Running tests (using Doctest):**
 
     Run the command "make test".
-    This will run all the tests written using the Doctest framework.
+    This command will run all the tests written using the Doctest framework.
 
-4. **Running memory leaks (using Valgrind)**
+5. **Checking for memory leaks (using Valgrind)**
 
     Run the command "make valgrind".
-    This will check if there are any memory leaks using Valgrind
+    This command will check if there are any memory leaks, using Valgrind.
+
+6. **Deleting the compiled files**
+
+    Run the command "make clean"
+    This command will delete the files that were created during the compilation of our program.
 
 ## Testing
 
 The project uses the Doctest testing framework to write unit tests for the implemented algorithms. Some of the tests included are for the following algorithms:
 
--DFS: Tests Depth-First Search by adding edges and printing the resultant graph.
+- DFS: Tests Depth-First Search by adding edges and printing the resultant graph.
 
--BFS: Tests Breadth-First Search similarly to DFS.
+- BFS: Tests Breadth-First Search similarly to DFS.
 
--Prim's Algorithm: Tests Prim's minimum spanning tree algorithm.
+- Prim's Algorithm: Tests Prim's minimum spanning tree algorithm.
 
--Dijkstra's Algorithm: Tests Dijkstra's shortest path tree algorithm.
+- Dijkstra's Algorithm: Tests Dijkstra's shortest path tree algorithm.
 
--Kruskal's Algorithm: Tests Kruskal's algorithm for finding the minimum spanning tree (MST).
+- Kruskal's Algorithm: Tests Kruskal's algorithm for finding the minimum spanning tree (MST).
 
 
 
