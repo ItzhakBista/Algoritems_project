@@ -1,3 +1,5 @@
+mail: itzhak173@gmail.com
+
 # Algoritems_project
 First assignment in course: System programing 2.
 
