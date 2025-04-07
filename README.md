@@ -75,15 +75,15 @@ To compile the project, run the following commands:
 
 The project uses the Doctest testing framework to write unit tests for the implemented algorithms. Some of the tests included are for the following algorithms:
 
-*DFS: Tests Depth-First Search by adding edges and printing the resultant graph.
+-DFS: Tests Depth-First Search by adding edges and printing the resultant graph.
 
-*BFS: Tests Breadth-First Search similarly to DFS.
+-BFS: Tests Breadth-First Search similarly to DFS.
 
-*Prim's Algorithm: Tests Prim's minimum spanning tree algorithm.
+-Prim's Algorithm: Tests Prim's minimum spanning tree algorithm.
 
-*Dijkstra's Algorithm: Tests Dijkstra's shortest path tree algorithm.
+-Dijkstra's Algorithm: Tests Dijkstra's shortest path tree algorithm.
 
-*Kruskal's Algorithm: Tests Kruskal's algorithm for finding the minimum spanning tree (MST).
+-Kruskal's Algorithm: Tests Kruskal's algorithm for finding the minimum spanning tree (MST).
 
 
 
